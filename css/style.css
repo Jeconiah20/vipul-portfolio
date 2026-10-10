@@ -952,3 +952,20 @@ footer p, footer span {
   .hero-cta { flex-direction: column; }
   .btn-primary, .btn-ghost { width: 100%; justify-content: center; }
 }
+
+/* LinkedIn Footer Link */
+.linkedin-link {
+  color: var(--accent);
+  font-size: 28px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  margin-left: 630px;
+}
+
+.linkedin-link:hover {
+  transform: translateY(-3px);
+  opacity: 0.75;
+}
+
